@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrosel</title>
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <!--Fim fontes-->
+
+    <!--Links css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Fim Links-->
+</head>
+
+<body>
+    <main>     
+        <section id="section-presentes" class="presentes"> <!--Sessão de Lista de Presentes-->
+            <div class="interface"> 
+                <div class="texto-presentes"><!--Titulo da sessão-->
+                    <h1>Lista de Presentes</h1>
+                    <div class="linha-decorativa"></div>
+                </div>
+    
+                <div class="conteiner-presentes"><!--Conteiner do carrossel-->
+                    <div class="swiper-container"> <!--Conteiner com botões e o carrosel-->
+
+                        <!-- Botões de navegação -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                        <!-- Paginação -->
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-wrapper"> <!--Conteiner da parte rolante-->
+                            <!--Aqui são adicionados os elementos pelo javascript-->
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Fim interface-->
+        </section> <!--Fim sessão-->
+    </main>
+
+    <!--Links JavaScript-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!--Fim links-->
+
+</body>
+
+</html>
