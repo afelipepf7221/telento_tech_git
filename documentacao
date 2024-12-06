@@ -1,0 +1,27 @@
+Carrossel de Produtos Dinâmico
+
+Este projeto foi desenvolvido com o objetivo de criar um carrossel interativo de produtos, utilizando dados obtidos dinamicamente de uma API.
+---
+
+Funcionalidades Implementadas
+
+Carrossel Dinâmico: 
+   - Geração de slides dinâmicos com base nos dados da API.  
+   - Transições suaves e animações para uma experiência fluida.  
+
+Integração com API: 
+   - Consumo dos dados da API [DummyJSON](https://dummyjson.com/products).  
+   - Exibição dos produtos no formato de slides, com imagem, título e botão de compra.  
+
+Navegação e Paginação:
+   - Controles de navegação para avançar e retroceder entre os slides.  
+   - Paginação clicável para indicar a posição atual no carrossel.  
+  
+
+Como o Git Ajudou no Gerenciamento do Projeto
+
+Controle de Versões
+
+Funcionalidades foram desenvolvidas em branches separadas, permitindo isolamento das mudanças e revisão antes de integrar ao código principal.  
+
+Commits bem especificados para saber de onde foi parado o projeto e por onde continuar
